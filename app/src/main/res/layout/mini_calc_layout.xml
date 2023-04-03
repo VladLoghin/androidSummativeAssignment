@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="32dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/miniCalc"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:text="Mini Calculator" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="32dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/EditText"
+            android:layout_width="357dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:text="Enter text here" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="32dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/plus"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/minus"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/Clear"
+            android:layout_width="180dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:text="Clear" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="32dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/multiply"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/divide"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:text="-" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="32dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/multiplyByTwo"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:text="*2" />
+        <Button
+            android:id="@+id/divideByTwo"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:text="*/2" />
+        <Button
+            android:id="@+id/Equal"
+            android:layout_width="180dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:text="=" />
+
+    </LinearLayout>
+
+</LinearLayout>
